@@ -1,4 +1,6 @@
 #include "main.h"
+
+
 /**
  * _isalpha - function that checks for alphabetic character
  * @c: input letrer
@@ -12,6 +14,6 @@ if (((c >= 'a') && (c <= 'z')) || ((c >= 'A') && (c <= 'Z')))
 return (1);
 
 else
-
+i
 return (0);
 }
