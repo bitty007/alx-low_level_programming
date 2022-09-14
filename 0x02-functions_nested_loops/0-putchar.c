@@ -1,4 +1,4 @@
-#include "main"
+#include "time.h"
 /**
  * main - Entry point
  * Return: always 0
