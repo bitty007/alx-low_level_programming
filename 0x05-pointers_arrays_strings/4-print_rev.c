@@ -1,18 +1,18 @@
-#include <stdio.h>
-#include <string.h>
 #include "main.h"
 
 /**
  * print_rev - Prints a string in reverse order
- * @s: string to reverse
- * Return: Nothing\
+ * @s: string to be printed
  */
 
 void print_rev(char *s)
 {
-int len = strlen(s);
+	int i = 0;
 
-while (len--)
-putchar(*(s + len));
-putchar(10);
+	while (s[i] != '\0')
+		i++;
+	for (i = i - i; i >= 0; i--)
+		_putchar(s[i]);
+
+	_putchar('\n');
 }
