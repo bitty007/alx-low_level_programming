@@ -11,7 +11,7 @@
 
 void print_strings(const char *separator, const unsigned int n, ...)
 {
-va_list list i;
+va_list list;
 unsigned int i;
 char *c;
 va_start(list, n);
@@ -27,7 +27,7 @@ for (i = 0; i < n; i++)
 	if (i != n - 1 && separator != NULL)
 		printf("%s", separator);
 }
-va_end(list)
+va_end(list);
 
 putchar('\n');
 }
